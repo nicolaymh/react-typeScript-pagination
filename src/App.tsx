@@ -1,9 +1,11 @@
-function App() {
+import { HomePage } from "./pages/HomePage";
+
+const App = () => {
    return (
-      <div>
-         <h1>Hola mundo!!!</h1>
-      </div>
+      <>
+         <HomePage />
+      </>
    );
-}
+};
 
 export default App;
